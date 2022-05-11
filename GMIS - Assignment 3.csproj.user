@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Ashley\ViewAllStudent.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Manpreet\SearchStudents.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Nhi\SearchStudentGroups.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Ashley\ViewAllStudent.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Manpreet\SearchStudents.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Nhi\SearchStudentGroups.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
